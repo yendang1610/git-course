@@ -1,0 +1,7 @@
+1. Command to setup email and name:
+
+Config username: git config --global user.name "Yen Dang"
+
+Config email: git config --global user.email "yendang1610@gmail.com"
+
+2. git config --global user.name "PW-Yen Dang"
