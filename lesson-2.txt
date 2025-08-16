@@ -1,0 +1,4 @@
+Git init: Khởi tạo thư mục được quản lý bởi Git
+Git add <file_name>: add 1 file từ working directory sang staging area
+Git add . : add toàn bộ file
+Git commit -m "<commit message>": đưa file từ stating area lên repository
