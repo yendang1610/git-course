@@ -1,0 +1,83 @@
+Bài tập 1:
+
+git commit --amend: thay đổi commit cuối cùng
+git commit --amend -m "message": thay đổi commit message
+git restore --staged <file>: Thay đổi commit message, đưa từ vùng staging về working directory
+git reset HEAD~1: Thay đổi commit message: đưa từ vùng repository về working directory (uncommit)
+
+Bài tập 2: Có 1 folder lesson-3 mới được tạo.
+a. Tạo 3 file: file1, file2, file3
+Local: file1, file2, file3
+Working:
+Staging:
+Repository:
+b. Chạy lệnh: git init
+Local: 
+Working: file1, file2, file3
+Staging:
+Repository:
+c. Chạy lệnh: git commit -m "init project"
+Local: 
+Working: file1, file2, file3
+Staging:
+Repository:
+d. Chạy lệnh: git add file1
+Local: 
+Working: file2, file3
+Staging: file1
+Repository:
+e. Chạy lệnh: git commit -m "add file"
+Local: 
+Working: file2, file3
+Staging: 
+Repository: file1
+f. Chạy lệnh: git add .
+Local: 
+Working: 
+Staging: file2, file3
+Repository: file1
+g. Chạy lệnh: git restore --staged file2
+Local: 
+Working: file2
+Staging: file3
+Repository: file1
+h. Chạy lệnh: git commit -m "add all files"
+Local: 
+Working: file2
+Staging: 
+Repository: file1, file3
+i. Chạy lệnh: git reset HEAD~1
+Local: 
+Working: file2, file3
+Staging: 
+Repository: file1
+
+Bài tập 3: 
+Có 1 folder lesson-3-git mới được tạo
+
+a. Chạy lệnh git init: Git sẽ khởi tạo folder thành một Git repo mới
+b. Tạo file file1.txt, file2.txt, oops/file3.txt.
+Local: file1.txt, file2.txt, oops/file3.txt
+Working: 
+Staging: 
+Repository: 
+c. Thêm file .gitignore, thêm vào 2 dòng:
+i. file1.txt
+ii. oops/
+
+Local: file1.txt và tất cả những file trong oops/ đều bị gray (bị ignore trên git). file2.txt enable
+Working: 
+Staging: 
+Repository: 
+
+d. Chạy lệnh: git add .
+Local: file1.txt và tất cả những file trong oops/ đều bị gray (bị ignore trên git)
+Working: file2.txt
+Staging: 
+Repository: 
+e. Chạy lệnh: git commit -m"init project"
+Local: file1.txt và tất cả những file trong oops/ đều bị gray (bị ignore trên git)
+Working: 
+Staging: file2.txt
+Repository: 
+
