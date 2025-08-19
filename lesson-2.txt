@@ -1,4 +1,12 @@
 Git init: Khởi tạo thư mục được quản lý bởi Git
 Git add <file_name>: add 1 file từ working directory sang staging area
-Git add . : add toàn bộ file
-Git commit -m "<commit message>": đưa file từ stating area lên repository
+Git add . : add toàn bộ file vào khu vực chờ commit (Vùng staging)
+Git commit -m "<commit message>": Tạo ra 1 phiên bản dựa vào các file đã được thêm ở vùng staging vào Repository với thông điệp là "message"
+
+
+Tạo 3 files --- 3 files này ở working directory
+chạy lệnh git init: Khởi tạo thư mục được quản lý bởi Git
+chạy lệnh: git commit -m "init project" => Sẽ báo lỗi vì chưa có gì để commit
+chạy lệnh: git add file1: file 1 được add từ working directory lên staging
+chạy lệnh: git commit -m "add file1": Tạo ra phiên bản của file 1 thêm từ staging lên repository
+chạy lệnh: git commit -m "add file": sẽ báo lỗi vì chưa có file nào ở staging để commit tiếp
