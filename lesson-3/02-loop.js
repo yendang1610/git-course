@@ -29,12 +29,9 @@ console.log("odd number for 1 to 99 is ", oddNumber);
 // In ra 10 email dựa trên tên người dùng và số thứ tự (ví dụ:
 // user1@example.com, user2@example.com, ..., user10@example.com).
 
-let emailList = [];
-
 for (let i = 1; i <= 10; i++) {
     console.log("user", i, "@example.com,")
 }
-
 
 // Tính tổng doanh thu của 12 tháng trong năm dựa trên mảng doanh thu đã cho và
 // in ra tổng doanh thu. Biết cấu trúc object của mảng doanh thu như sau:

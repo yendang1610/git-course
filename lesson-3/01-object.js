@@ -1,7 +1,11 @@
 // Tạo một object car với thuộc tính make=”Toyota”, model=”Corolla”, và
 // year=2021. Sau đó in ra năm sản xuất của xe.
 
-let car = { "make": "Toyota", "model": "Corolla", "year": 2021 };
+let car = { 
+    "make": "Toyota", 
+    "model": "Corolla", 
+    "year": 2021 
+};
 console.log(" Year of manufacture is: ", car.year);
 
 // Tạo một object person có thuộc tính name, address (là một object lồng với các thuộc
@@ -14,7 +18,7 @@ let person = {
         "city": "Hanoi",
         "country": "Vietnam"
     }
-}
+};
 console.log(person.name, " lives in ", person.address.street, "street");
 
 // Tạo một object student và truy cập đến điểm môn toán (math) sử dụng ngoặc vuông.
